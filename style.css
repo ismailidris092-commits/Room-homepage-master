@@ -85,9 +85,9 @@ span {
   background-color: black;
   padding: 15px;
   width: 71px;
-  margin-top: 195px;
-  position: relative;
-  right: 82px;
+  margin-top: 5.2%;
+  position: absolute;
+  right: 32.5%;
 }
 
 .icon-angle-right {
@@ -97,11 +97,11 @@ span {
 /* Furniture */
 .display-grid-two {
   display: grid;
-  grid-template-columns: 0.4fr 2.2fr 0.4fr;
+  grid-template-columns: 0.6fr 1.2fr 0.6fr;
 }
 
 .about-our-furniture {
-  margin-left: 20px;
+  margin: 0 auto;
   text-align: justify;
   align-content: center;
   width: 100%;
@@ -120,8 +120,10 @@ span {
 
 .black-colour-furniture {
   width: 100%;
+  height: 266px;
 }
 
 .white-colour-furniture {
   width: 100%;
+  height: 100%;
 }
