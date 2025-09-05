@@ -84,11 +84,10 @@ span {
 .icon-angle {
   background-color: black;
   padding: 25px;
-  border-right: 10px;
-  width: 86px;
+  width: 23%;
   margin-top: 177px;
   position: relative;
-  right: 82px;
+  right: 22%;
 }
 
 .icon-angle-right {
