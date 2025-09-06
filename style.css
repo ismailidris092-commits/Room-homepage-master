@@ -125,7 +125,7 @@ body {
 /* About furniture section*/
 .display-grid-two {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 30% 40% 30%;
 }
 
 .chair-furniture img {
