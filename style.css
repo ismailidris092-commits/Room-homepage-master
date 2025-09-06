@@ -4,14 +4,13 @@ body {
   font-family: league spartan, serif;
 }
 
-/* navigation */
-
+/* hero */
 .display-grid-one {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.15fr 0.85fr;
 }
 
-.nav-bar-background-image {
+.hero-background-image {
   background-image: url(images/desktop-image-hero-1.jpg);
   width: 100%;
   height: 80vh;
@@ -19,20 +18,21 @@ body {
   background-size: cover;
 }
 
-.nav-bar {
+/* Navigation */
+.navbar-logo-container {
   display: flex;
   gap: 40px;
   margin-top: 40px;
   margin-left: 60px;
 }
 
-.nav-bar-logo img {
+.room-logo img {
   height: 12px;
   width: 56px;
   margin-top: 2px;
 }
 
-.nav-menu-items a {
+.nav-bar a {
   color: #fff;
   text-decoration: none;
   font-size: 12px;
@@ -50,7 +50,7 @@ body {
   margin-left: 20px;
 }
 
-/* Discover innovative ways to decorate */
+/* Discover innovative section */
 
 .discover-innovative {
   margin: 0 auto;
@@ -70,11 +70,16 @@ body {
   line-height: 20px;
 }
 
-span {
-  word-spacing: 10px;
-  letter-spacing: 8px;
+.shop-now {
+  margin-bottom: 100px;
+}
+
+.shop-now a {
   font-size: 13px;
   font-weight: bold;
+  letter-spacing: 8px;
+  text-decoration: none;
+  color: #000;
 }
 
 .shop-now-icon {
@@ -83,28 +88,46 @@ span {
 
 .icon-angle {
   background-color: black;
-  padding: 15px;
-  width: 71px;
-  margin-top: 4.4%;
+  padding: 20px;
+  width: 96px;
+  margin-top: 0.4%;
   position: absolute;
   right: 32.5%;
 }
 
 .icon-angle-right {
-  margin-left: 38px;
+  margin-left: 20px;
+  background-color: black;
+  border: none;
 }
 
-/* Furniture */
+.icon-angle-right:hover {
+  color: #fff;
+  background-color: #000;
+  transform: scale(1.05);
+}
+
+.icon-angle-left {
+  background-color: black;
+  border: none;
+}
+
+.icon-angle-left:hover {
+  color: #fff;
+  background-color: #000;
+  transform: scale(1.05);
+}
+
+/* About furniture section*/
 .display-grid-two {
   display: grid;
-  grid-template-columns: 0.6fr 1.2fr 0.6fr;
+  grid-template-columns: 0.9fr 1.2fr 0.9fr;
 }
 
 .about-our-furniture {
-  margin: 0 auto;
+  padding: 10px;
   text-align: justify;
   align-content: center;
-  width: 100%;
 }
 
 .about-furniture-heading {
@@ -120,10 +143,8 @@ span {
   margin: 10px 30px;
 }
 
-.black-colour-furniture {
+.chair-furniture {
   width: 100%;
-}
-
-.white-colour-furniture {
-  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
