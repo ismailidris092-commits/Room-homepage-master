@@ -169,15 +169,15 @@ body {
     display: none;
   }
 
-  /* .room-logo img {
-    height: 20px;
-    width: 100px;
+  .room-logo img {
+    height: 17px;
+    width: 90px;
     margin-top: 0px;
-  } */
+  }
 
   .hamburger-icon img {
     display: block;
-    /* width: 30px; */
+    width: 25px;
   }
 
   .display-grid-one {
