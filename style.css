@@ -157,25 +157,27 @@ body {
   /* Navigation */
   .navbar-logo-container {
     display: flex;
-    align-content: center;
+    flex-direction: row-reverse;
+    justify-content: left;
     margin-top: 0;
     margin-left: 0;
-    padding: 30px;
+    padding: 0 10px;
+    padding-top: 20px;
   }
 
   .nav-bar a {
     display: none;
   }
 
-  .room-logo img {
+  /* .room-logo img {
     height: 20px;
     width: 100px;
     margin-top: 0px;
-  }
+  } */
 
   .hamburger-icon img {
     display: block;
-    width: 30px;
+    /* width: 30px; */
   }
 
   .display-grid-one {
@@ -202,6 +204,15 @@ body {
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: 700;
+  }
+
+  .icon-angle {
+    background-color: black;
+    padding: 22px;
+    width: 91px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   /* About furniture section*/
