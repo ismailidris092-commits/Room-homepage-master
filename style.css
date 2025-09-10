@@ -195,6 +195,10 @@ body {
     width: 25px;
   }
 
+  .hamburger-icon img:hover {
+    transform: scale(1.1);
+  }
+
   /* Discover innovative section */
   .discover-innovative {
     padding: 0 30px;
