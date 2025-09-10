@@ -19,6 +19,10 @@ body {
   background-size: cover;
 }
 
+.mobile-icon-angle {
+  display: none;
+}
+
 /* Navigation */
 .navbar-logo-container {
   display: flex;
@@ -157,7 +161,6 @@ body {
 
   .display-grid-one {
     display: block;
-    position: relative;
   }
 
   .hero-background-image {
@@ -166,6 +169,41 @@ body {
     height: 50vh;
     background-position: center;
     background-size: 100% 100%;
+    position: relative;
+  }
+
+  .mobile-icon-angle {
+    display: block;
+    background-color: black;
+    padding: 22px;
+    width: 91px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .mobile-icon-angle-right {
+    margin-left: 13px;
+    background-color: black;
+    border: none;
+  }
+
+  .mobile-icon-angle-right:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
+  }
+
+  .mobile-icon-angle-left {
+    background-color: black;
+    border: none;
+    padding-left: 5px;
+  }
+
+  .mobile-icon-angle-left:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
   }
 
   /* Navigation */
@@ -176,8 +214,8 @@ body {
     gap: 70px;
     margin-top: 0;
     margin-left: 0;
-    padding: 0 20px;
-    padding-top: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
   }
 
   .nav-bar a {
@@ -201,24 +239,19 @@ body {
 
   /* Discover innovative section */
   .discover-innovative {
-    padding: 0 30px;
+    padding: 0 50px;
     text-align: justify;
-    align-content: center;
+    margin-top: 70px;
   }
 
   .discover-innovative-heading {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 15px;
     font-weight: 700;
   }
 
   .icon-angle {
-    background-color: black;
-    padding: 22px;
-    width: 91px;
-    position: absolute;
-    bottom: 100%;
-    left: 68%;
+    display: none;
   }
 
   /* About furniture section*/
@@ -227,9 +260,9 @@ body {
   }
 
   .about-our-furniture {
-    padding: 0 30px;
+    padding: 0 50px;
     text-align: justify;
-    align-content: center;
+    margin: 70px 0;
   }
 
   .about-furniture-heading {
@@ -241,16 +274,8 @@ body {
 
 /* Media query fo tablet */
 @media (min-width: 577px) and (max-width: 992px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: league spartan, serif;
-  }
-
-  /* hero section */
   .display-grid-one {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
+    display: block;
   }
 
   .hero-background-image {
@@ -259,20 +284,172 @@ body {
     height: 75vh;
     background-position: center;
     background-size: 100% 100%;
+    position: relative;
+  }
+
+  .mobile-icon-angle {
+    display: block;
+    background-color: black;
+    padding: 30px;
+    width: 91px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .mobile-icon-angle-right {
+    margin-left: 13px;
+    background-color: black;
+    border: none;
+  }
+
+  .mobile-icon-angle-right:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
+  }
+
+  .mobile-icon-angle-left {
+    background-color: black;
+    border: none;
+    padding-left: 5px;
+  }
+
+  .mobile-icon-angle-left:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
+  }
+
+  /* Navigation */
+  .navbar-logo-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 60px;
+    padding-top: 70px;
+  }
+
+  .nav-bar a {
+    display: none;
+  }
+
+  .room-logo img {
+    height: 17px;
+    width: 80px;
+    margin-top: 0px;
+  }
+
+  .hamburger-icon img {
+    display: block;
+    width: 25px;
+  }
+
+  .hamburger-icon img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Discover innovative section */
+  .discover-innovative {
+    padding: 0 70px;
+    text-align: justify;
+    margin-top: 70px;
+  }
+
+  .discover-innovative-heading {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+  .icon-angle {
+    display: none;
+  }
+
+  /* About furniture section*/
+  .display-grid-two {
+    display: block;
+  }
+
+  .about-our-furniture {
+    padding: 0 70px;
+    text-align: justify;
+    margin: 90px 0;
+  }
+
+  .about-furniture-heading {
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Media query fo mini laptop */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .display-grid-one {
+    display: block;
+  }
+
+  .hero-background-image {
+    background-image: url(images/desktop-image-hero-1.jpg);
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+  }
+
+  .mobile-icon-angle {
+    display: block;
+    background-color: black;
+    padding: 30px;
+    width: 91px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .mobile-icon-angle-right {
+    margin-left: 13px;
+    background-color: black;
+    border: none;
+  }
+
+  .mobile-icon-angle-right:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
+  }
+
+  .mobile-icon-angle-left {
+    background-color: black;
+    border: none;
+    padding-left: 5px;
+  }
+
+  .mobile-icon-angle-left:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
   }
 
   /* Navigation */
   .navbar-logo-container {
     display: flex;
     align-content: center;
-    gap: 40px;
-    margin-top: 30px;
-    margin-left: 20px;
+    gap: 80px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 60px;
+    padding-top: 40px;
   }
 
   .room-logo img {
     height: 13px;
-    width: 50px;
+    width: 65px;
     margin-top: 2px;
   }
 
@@ -283,123 +460,55 @@ body {
   }
 
   .nav-bar .menu {
-    margin-left: 5px;
+    margin-left: 25px;
   }
 
   /* Discover innovative section */
   .discover-innovative {
-    padding: 0 10px;
+    padding: 0 70px;
     text-align: justify;
-    align-content: center;
-    position: relative;
+    margin-top: 70px;
   }
 
   .discover-innovative-heading {
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 20px;
     font-weight: 700;
   }
 
-  .discover-innovative-paragraph {
-    color: grey;
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 18px;
-  }
-
-  .shop-now a {
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 6px;
-    text-decoration: none;
-    color: #000;
-  }
-
-  .shop-now-icon {
-    margin-left: 10px;
+  .shop-now {
+    padding-top: 30px;
   }
 
   .icon-angle {
-    background-color: black;
-    padding: 30px;
-    width: 60px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-
-  .icon-angle-right {
-    margin-left: 3px;
-    background-color: black;
-    border: none;
-  }
-
-  .icon-angle-left {
-    background-color: black;
-    border: none;
-    padding-left: 2px;
+    display: none;
   }
 
   /* About furniture section*/
   .display-grid-two {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
+    display: block;
   }
 
   .chair-furniture img {
     width: 100%;
-    height: 122%;
-    object-fit: cover;
+    height: 75vh;
   }
 
   .about-our-furniture {
-    padding: 0 10px;
+    padding: 0 70px;
     text-align: justify;
-    align-content: center;
-    margin-top: 40px;
+    margin: 90px 0;
   }
 
   .about-furniture-heading {
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 5px;
-    margin-bottom: 30px;
-  }
-
-  .about-furniture-paragraph {
-    font-size: 14px;
-    color: grey;
-    line-height: 20px;
-  }
-
-  .hero-background-image {
-    background-image: url(images/desktop-image-hero-1.jpg);
-    width: 100%;
-    height: 75vh;
-    background-position: center;
-    background-size: cover;
+    margin-bottom: 15px;
   }
 }
 
-/* Media query fo mini laptop */
-@media (min-width: 993px) and (max-width: 1200px) {
-  /* hero section */
-  .hero-background-image {
-    background-image: url(images/desktop-image-hero-1.jpg);
-    width: 100%;
-    height: 75vh;
-    background-position: center;
-    background-size: 100% 100%;
-  }
-
-  /* Navigation */
-  .navbar-logo-container {
-    display: flex;
-    align-content: center;
-    gap: 80px;
-    margin-top: 40px;
-    margin-left: 60px;
-  }
-
+/* Media query fo medium laptop */
+@media (min-width: 1201px) and (max-width: 1400px) {
   /* Discover innovative section */
   .discover-innovative {
     padding: 0 40px;
@@ -409,22 +518,29 @@ body {
   }
 
   .discover-innovative-heading {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 30px;
     font-weight: 700;
+  }
+
+  .discover-innovative-paragraph {
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 20px;
   }
 
   .icon-angle {
     background-color: black;
     padding: 22px;
-    width: 60px;
+    width: 91px;
     position: absolute;
     bottom: 0;
     left: 0;
   }
 
   .icon-angle-right {
-    margin-left: 4px;
+    margin-left: 13px;
     background-color: black;
     border: none;
   }
@@ -432,35 +548,70 @@ body {
   .icon-angle-right:hover {
     color: #fff;
     background-color: #000;
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 
   .icon-angle-left {
     background-color: black;
     border: none;
-    padding-left: 1px;
+    padding-left: 5px;
   }
 
-  /* About furniture section*/
-  .display-grid-two {
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
+  .icon-angle-left:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+  .icon-angle {
+    background-color: black;
+    padding: 25px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
-  .chair-furniture img {
-    width: 100%;
-    height: 100%;
+  .icon-angle-right {
+    margin-left: 15px;
+    background-color: black;
+    border: none;
   }
 
-  .about-our-furniture {
-    padding: 0 40px;
-    text-align: justify;
-    align-content: center;
+  .icon-angle-left {
+    background-color: black;
+    border: none;
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1900px) {
+  .icon-angle {
+    background-color: black;
+    padding: 34px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .icon-angle-right {
+    margin-left: 15px;
+    background-color: black;
+    border: none;
+  }
+
+  .icon-angle-left {
+    background-color: black;
+    border: none;
+    padding-left: 5px;
   }
 }
 
 /* Media query fo 4k laptop */
-@media (min-width: 1401px) {
+@media (min-width: 1901px) {
   /* navigation: ; */
   .icon-angle {
     background-color: black;
