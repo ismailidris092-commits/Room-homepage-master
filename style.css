@@ -324,12 +324,10 @@ body {
   /* Navigation */
   .navbar-logo-container {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-    gap: 100px;
+    justify-content: space-between;
     margin-top: 0;
     margin-left: 0;
-    padding-left: 60px;
+    padding: 0 100px;
     padding-top: 70px;
   }
 
