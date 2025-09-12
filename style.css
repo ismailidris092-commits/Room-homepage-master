@@ -211,10 +211,10 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
-    gap: 70px;
+    gap: 60px;
     margin-top: 0;
     margin-left: 0;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-top: 40px;
   }
 
@@ -354,7 +354,7 @@ body {
 
   /* Discover innovative section */
   .discover-innovative {
-    padding: 0 70px;
+    padding: 70px;
     text-align: justify;
     margin-top: 70px;
   }
@@ -375,7 +375,7 @@ body {
   }
 
   .about-our-furniture {
-    padding: 0 70px;
+    padding: 70px;
     text-align: justify;
     margin: 90px 0;
   }
@@ -465,15 +465,14 @@ body {
 
   /* Discover innovative section */
   .discover-innovative {
-    padding: 0 70px;
+    padding: 70px;
     text-align: justify;
-    margin-top: 70px;
   }
 
   .discover-innovative-heading {
     font-size: 40px;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 700px;
   }
 
   .shop-now {
@@ -495,7 +494,7 @@ body {
   }
 
   .about-our-furniture {
-    padding: 0 70px;
+    padding: 70px;
     text-align: justify;
     margin: 90px 0;
   }
