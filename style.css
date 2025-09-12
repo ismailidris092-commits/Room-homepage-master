@@ -354,15 +354,14 @@ body {
 
   /* Discover innovative section */
   .discover-innovative {
-    padding: 70px;
+    padding: 100px;
     text-align: justify;
-    margin-top: 70px;
   }
 
   .discover-innovative-heading {
     font-size: 35px;
     margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: 700px;
   }
 
   .icon-angle {
@@ -375,9 +374,10 @@ body {
   }
 
   .about-our-furniture {
-    padding: 70px;
+    padding: 100px;
     text-align: justify;
     margin: 90px 0;
+    margin-top: 0;
   }
 
   .about-furniture-heading {
